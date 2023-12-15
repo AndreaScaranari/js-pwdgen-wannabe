@@ -12,18 +12,24 @@ const secondName = prompt("Qual è il tuo cognome?", "Pellico");
 const favColor = prompt("Qual è il tuo colore preferito?", "Viola");
 // console.log(favColor);
 
-// 4 Creato il messaggio base
-const message = "La tua password per accedere al nostro servizio è: "
+// 4 Creato il messaggio che precede la password
+let message = "La tua password per accedere al nostro servizio è: "
 // console.log(message);
 
 // 5 Creato il finale della Password
 const endingPW = 23;
 // console.log(endingPW);
 
-// 6 Password creata e stampata in Console
-const password = message+firstName+secondName+favColor+endingPW;
-console.log(password)
-// console.log(message+firstName+secondName+favColor+endingPW);
+// 6 Password creata
+const password = firstName+secondName+favColor+endingPW;
+// console.log(password)
 
-// 7 Stampare la password in pagina
+// Testing messaggio completo
+// console.log(message+password);
 
+// Testing password inserita nel messaggio
+// message += password;
+// console.log(message);
+
+// // 7 Stampare la password in pagina
+document.getElementById("your-password").innerHTML = `${message} <i> ${password} </i>`;

@@ -22,5 +22,5 @@
     - Creare variabile `favColor`
 4. Creare variabile `message`
 5. Creare variabile `endingPW`
-6. Creare variabile `password` e stamparla in console
-7. Stampare in pagina la password
+6. Creare variabile `password`
+7. Stampare in pagina la password preceduta da `message`
