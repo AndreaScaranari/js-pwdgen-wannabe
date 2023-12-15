@@ -14,11 +14,11 @@
 - Disattivate Live Server finchè lavoriamo coi prompt o gli alert perchè potrebbe dar luogo a comportamenti strani
 
 ### Scaletta Step
-1. Creare alert che chieda il nome dell'utente
+1. Creare prompt che chieda il nome dell'utente
     - Creare variabile `firstName`
-2. Creare alert che chieda il cognome dell'utente
+2. Creare prompt che chieda il cognome dell'utente
     - Creare variabile `lastName`
-3. Creare alert che chieda il colore preferito dell'utente
+3. Creare prompt che chieda il colore preferito dell'utente
     - Creare variabile `favColor`
 4. Creare variabile `message`
 5. Creare variabile `endingPW`
